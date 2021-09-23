@@ -19,8 +19,9 @@ namespace Assignment1_n00000.Controllers
             return message;
         }
 
-        //POST api/Fun
-        public string Post()
+        //POST api/Fun/{id}
+
+        public string Post(int id)
         {
 
             return "Hello - you made a POST call";
